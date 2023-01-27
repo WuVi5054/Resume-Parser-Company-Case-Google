@@ -21,3 +21,5 @@ as you have the neccassary libraries it should connect and you can upload pdfs, 
 -[] Being able to print all the available files in the database/or all the files that fit a certain search word
 
 -[] Add a searching feature with keywords to narrow down all the resumes down to the ones we want
+
+-[] Could just parse through the files and use some AI to go through the text and assign tags based on the contents of the resume, and we could just search for tags or a combination of tags
