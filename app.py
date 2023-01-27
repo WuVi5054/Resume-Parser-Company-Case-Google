@@ -16,10 +16,9 @@ ca = certifi.where()
 
 # Connect to MongoDB Atlas
 #In the <username>, <password>, <clustername> - Put your own credentials, remove the angle brackets too
-# client = pymongo.MongoClient(
-# "mongodb+srv://<username>:<password>@<clustername>.oyyvct8.mongodb.net/?retryWrites=true&w=majority", tlsCAFile=ca)
 client = pymongo.MongoClient(
-"mongodb+srv://vickyhu900:Killerqueen98@cluster0.oyyvct8.mongodb.net/?retryWrites=true&w=majority", tlsCAFile=ca)
+"mongodb+srv://<username>:<password>@<clustername>.oyyvct8.mongodb.net/?retryWrites=true&w=majority", tlsCAFile=ca)
+
 
 #Getting the data from the database
 def get_data():
